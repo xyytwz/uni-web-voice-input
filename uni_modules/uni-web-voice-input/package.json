@@ -32,6 +32,10 @@
   "uni_modules": {
     "dependencies": [],
     "encrypt": [],
+    "engines": {
+      "HBuilderX": "^3.6.0",
+      "uni-app": "^3.6.0"
+    },
     "platforms": {
       "cloud": {
         "tcb": "y",
