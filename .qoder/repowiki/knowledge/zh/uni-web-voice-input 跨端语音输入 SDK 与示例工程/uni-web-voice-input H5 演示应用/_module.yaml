@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: demo_app
+title: uni-web-voice-input H5 演示应用
+scope:
+    - demo/
+source_files: []
+depends_on: []
+related_to: []

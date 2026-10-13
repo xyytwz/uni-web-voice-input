@@ -1,0 +1,29 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: main
+nodes_managed: true
+exported_at: "2026-10-13T07:39:38Z"
+modules:
+    "":
+        dir_name: uni-web-voice-input 跨端语音输入 SDK 与示例工程
+        title: uni-web-voice-input 跨端语音输入 SDK 与示例工程
+        scope:
+            - README.md
+            - .gitignore
+            - package.json
+            - LICENSE
+        source_files: []
+        children:
+            - demo_app
+        depends_on: []
+        related_to: []
+    demo_app:
+        dir_name: uni-web-voice-input H5 演示应用
+        title: uni-web-voice-input H5 演示应用
+        scope:
+            - demo/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
