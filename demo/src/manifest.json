@@ -1,0 +1,31 @@
+{
+  "name": "voice-demo",
+  "appid": "",
+  "description": "uni-web-voice-input 跨端 Web 语音输入示例工程",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "vueVersion": "3",
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "distribute": {
+      "android": {
+        "permissions": ["<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>"]
+      },
+      "ios": {},
+      "sdkConfigs": {}
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": { "urlCheck": false },
+    "usingComponents": true
+  },
+  "h5": {
+    "router": { "mode": "hash" },
+    "devServer": { "port": 5199 }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "uni-web-voice-input",
+  "displayName": "跨端 Web 语音输入（按住说话 + 实时ASR，兼容鸿蒙 ArkWeb）",
+  "version": "1.0.0",
+  "description": "基于纯 Web 能力（getUserMedia + Web Audio + WebSocket 实时语音识别）的语音输入组件与 SDK。适用于 H5、App-vue 页面，以及被各端 WebView（尤其鸿蒙 ArkWeb web-view）内嵌的场景，内置跨端能力探测与「手势窗口内发起 getUserMedia」时序修复，麦克风/签名接口可注入、开箱即用。",
+  "keywords": [
+    "语音输入",
+    "语音识别",
+    "ASR",
+    "getUserMedia",
+    "鸿蒙",
+    "ArkWeb",
+    "webview"
+  ],
+  "repository": "",
+  "dcloudext": {
+    "type": ["component-vue", "sdk"],
+    "sale": {
+      "regular": { "price": "0.00" }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "组件不收集任何数据；音频仅推送给开发者自行注入的 ASR 签名所指向的服务",
+      "permissions": "麦克风权限（getUserMedia）"
+    },
+    "npmurl": "https://www.npmjs.com/package/uni-web-voice-input"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "n"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "n",
+          "Edge": "y",
+          "Firefox": "y"
+        },
+        "小程序": {
+          "微信": "n",
+          "阿里": "n",
+          "百度": "n",
+          "字节跳动": "n",
+          "QQ": "n"
+        },
+        "快应用": {
+          "华为": "n",
+          "联盟": "n"
+        },
+        "Vue": {
+          "vue2": "n",
+          "vue3": "y"
+        }
+      }
+    }
+  }
+}

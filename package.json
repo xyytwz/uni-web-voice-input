@@ -1,0 +1,50 @@
+{
+  "name": "uni-web-voice-input",
+  "version": "1.0.0",
+  "description": "纯 Web 能力（getUserMedia + WebSocket 实时 ASR）的跨端语音输入 SDK 与 uni-app 组件，兼容 H5 与各端 WebView（含鸿蒙 ArkWeb）内嵌场景。",
+  "keywords": [
+    "uni-app",
+    "uni_modules",
+    "voice",
+    "asr",
+    "getusermedia",
+    "harmonyos",
+    "arkweb",
+    "webview",
+    "speech-recognition"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "uni_modules/uni-web-voice-input/js_sdk/uni-web-voice/index.js",
+  "module": "uni_modules/uni-web-voice-input/js_sdk/uni-web-voice/index.js",
+  "types": "uni_modules/uni-web-voice-input/js_sdk/uni-web-voice/index.d.ts",
+  "exports": {
+    ".": "./uni_modules/uni-web-voice-input/js_sdk/uni-web-voice/index.js",
+    "./component": "./uni_modules/uni-web-voice-input/components/uni-web-voice-input/uni-web-voice-input.vue",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "uni_modules/uni-web-voice-input/js_sdk",
+    "uni_modules/uni-web-voice-input/components",
+    "uni_modules/uni-web-voice-input/readme.md",
+    "uni_modules/uni-web-voice-input/changelog.md"
+  ],
+  "uni-app": {
+    "uni_modules": {
+      "id": "uni-web-voice-input",
+      "platforms": {
+        "client": {
+          "H5": {},
+          "APP": {},
+          "webview": {}
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "echo \"(可选) 在此接入 eslint\" && exit 0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
