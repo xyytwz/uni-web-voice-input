@@ -1,7 +1,7 @@
 {
   "name": "uni-web-voice-input",
   "version": "1.0.0",
-  "description": "纯 Web 能力（getUserMedia + WebSocket 实时 ASR）的跨端语音输入 SDK 与 uni-app 组件，兼容 H5 与各端 WebView（含鸿蒙 ArkWeb）内嵌场景。",
+  "description": "跨端语音输入 SDK 与 uni-app 组件，鸿蒙 ArkWeb <web-view> 内嵌 H5 亦可用：手势窗口内发起 getUserMedia + WebSocket 实时 ASR，兼容 H5 / App-vue / 安卓·iOS WebView。",
   "keywords": [
     "uni-app",
     "uni_modules",
@@ -14,6 +14,11 @@
     "speech-recognition"
   ],
   "license": "MIT",
+  "author": "xyytwz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyytwz/uni-web-voice-input.git"
+  },
   "type": "module",
   "main": "uni_modules/uni-web-voice-input/js_sdk/uni-web-voice/index.js",
   "module": "uni_modules/uni-web-voice-input/js_sdk/uni-web-voice/index.js",

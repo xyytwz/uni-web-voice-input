@@ -1,18 +1,19 @@
 {
   "id": "uni-web-voice-input",
-  "displayName": "跨端 Web 语音输入（按住说话 + 实时ASR，兼容鸿蒙 ArkWeb）",
+  "displayName": "跨端web语音输入（按住说话·语音转文字）【鸿蒙ArkWeb可用】跨端Web语音输入SDK+组件",
   "version": "1.0.0",
-  "description": "基于纯 Web 能力（getUserMedia + Web Audio + WebSocket 实时语音识别）的语音输入组件与 SDK。适用于 H5、App-vue 页面，以及被各端 WebView（尤其鸿蒙 ArkWeb web-view）内嵌的场景，内置跨端能力探测与「手势窗口内发起 getUserMedia」时序修复，麦克风/签名接口可注入、开箱即用。",
+  "description": "解决鸿蒙 ArkWeb <web-view> 内嵌 H5「按住不弹麦克风权限、有权限却识别不出字」的跨端语音输入组件 + SDK：getUserMedia 在用户手势同步窗口内发起、AudioContext 手势内创建并 resume()，WebSocket 直连实时 ASR（默认兼容腾讯云），松手出字、上滑取消。同时支持 H5 / App-vue / 安卓·iOS WebView。内置跨端能力探测（结构化判定鸿蒙，不依赖 UA），ASR 签名以 getSign/signUrl 注入、不绑后端与厂商密钥，无广告不收集数据，开箱即用。",
   "keywords": [
     "语音输入",
     "语音识别",
     "ASR",
     "getUserMedia",
     "鸿蒙",
+    "HarmonyOS",
     "ArkWeb",
     "webview"
   ],
-  "repository": "",
+  "repository": "https://github.com/xyytwz/uni-web-voice-input",
   "dcloudext": {
     "type": ["component-vue", "sdk"],
     "sale": {

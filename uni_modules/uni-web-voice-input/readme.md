@@ -1,6 +1,6 @@
-## 简介
+## 简介：让鸿蒙 ArkWeb 也能「按住说话」
 
-`uni-web-voice-input` 是一个基于**纯 Web 能力**的跨端语音输入组件 + SDK：
+`uni-web-voice-input` 是一个基于**纯 Web 能力**的跨端语音输入组件 + SDK，核心卖点是：**在鸿蒙 ArkWeb `<web-view>` 内嵌的 H5 里也能正常弹麦克风权限、实时出字**：
 
 - 采音：`getUserMedia` + Web Audio（`ScriptProcessor`）→ 实时降采样为 16k PCM16；
 - 识别：原生 `WebSocket` 直连实时 ASR（默认兼容**腾讯云 ASR** `voice_format=1` 协议）；
